@@ -9,7 +9,7 @@
 
 // pin defining
 #define sol1 D0  // main stream solonoid
-#define sol2 D5  // mud stream solonoid
+#define sol2 D5  // mud stream solonoid_
 #define sensor D6
 #define LED LED_BUILTIN
 #define resetPin D7  // just put some pin number should change
