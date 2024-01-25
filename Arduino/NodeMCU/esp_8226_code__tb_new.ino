@@ -5,6 +5,9 @@
 #include <WiFiManager.h>
 #include <DNSServer.h>
 
+
+
+// pin defining
 #define sol1 D0  // main stream solonoid
 #define sol2 D5  // mud stream solonoid
 #define sensor D6
