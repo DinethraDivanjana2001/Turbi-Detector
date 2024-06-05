@@ -5,15 +5,28 @@
 ---
 
 ## Table of Contents
-1. [Problem Description and Motivation](#problem-description-and-motivation)
-2. [Technical Feasibility](#technical-feasibility)
-3. [Product Architecture](#product-architecture)
-4. [Initial Sketches of the Product Enclosures](#initial-sketches-of-the-product-enclosures)
-5. [Marketing, Sales, and After-Sale Service Considerations](#marketing-sales-and-after-sale-service-considerations)
-6. [Project Budget with Bill of Quantities (BOQ)](#project-budget-with-bill-of-quantities-boq)
-7. [Task Allocation Among Group Members](#task-allocation-among-group-members)
-8. [Conclusion](#conclusion)
-9. [References](#references)
+- [Turbi Detector](#turbi-detector)
+  - [Table of Contents](#table-of-contents)
+  - [Problem Description and Motivation](#problem-description-and-motivation)
+    - [Problem Description](#problem-description)
+    - [Motivation](#motivation)
+  - [](#)
+  - [Technical Feasibility](#technical-feasibility)
+    - [Key Components](#key-components)
+  - [Product Architecture](#product-architecture)
+  - [Initial Sketches of the Product Enclosures](#initial-sketches-of-the-product-enclosures)
+  - [Marketing, Sales, and After-Sale Service Considerations](#marketing-sales-and-after-sale-service-considerations)
+    - [Marketing Strategies](#marketing-strategies)
+    - [Target Markets](#target-markets)
+    - [Product Packaging](#product-packaging)
+    - [Warranty Terms](#warranty-terms)
+    - [After Sales Service](#after-sales-service)
+    - [Reuse/Recycle and Disposal](#reuserecycle-and-disposal)
+    - [Sales Channels](#sales-channels)
+  - [Project Budget with Bill of Quantities (BOQ)](#project-budget-with-bill-of-quantities-boq)
+    - [Total Production Cost](#total-production-cost)
+  - [Conclusion](#conclusion)
+  - [References](#references)
 
 ---
 
@@ -24,7 +37,12 @@ Mud in water pipelines poses significant problems for households, businesses, an
 
 ### Motivation
 The motivation for the Turbi Detector project stems from the widespread issue of water contamination due to mud, which impacts various sectors and everyday life. By creating a reliable and efficient detection system, we aim to improve water quality and pipeline maintenance, ultimately contributing to better public health and industrial operations.
+<center>
 
+![Survay Results](Pictures/Picture1.png)
+![Survay Results](Pictures/Picture2.png)
+
+</center>
 ---
 
 ## Technical Feasibility
@@ -32,21 +50,53 @@ The Turbi Detector uses an infrared sensor to detect mud in water. The sensor em
 
 ### Key Components
 - **Infrared Sensor**: Detects mud particles by measuring changes in light intensity.
+  <center>
+
+  ![alt](Pictures/Picture3.jpg)
+
+  </center>
 - **Control System**: Processes sensor data and triggers alerts.
 - **ESP 8266 12e**: Facilitates continuous monitoring and data transmission.
 - **Mobile App**: Notifies users of water quality issues and system status.
+<center> 
+
+![alt](Pictures/Picture5.jpg) 
+
+</center>
 
 ---
 
 ## Product Architecture
 The product architecture includes a detailed design and assembly of the Turbi Detector system. The architecture ensures reliable detection and management of mud in water supplies through a well-integrated system of sensors, control units, and communication modules.
+<center>
+
+![alt](Pictures/Picture6.png)
+<img src="Pictures/Picture7.png" style="background-color:white;"/>
+<img src="Pictures/Picture8.png" style="background-color:white;"/>
+<img src="Pictures/Picture9.png" style="background-color:white;"/>
+
+
+<p>PCB Dsign</p>
+<img src="Pictures/Screenshot 2024-06-05 221913.png" style="background-color:white;"/>
+<p> Top view</p>
+<img src="Pictures/Screenshot 2024-06-05 221748.png" style="background-color:white;"/>
+<p> #D view</p>
+
+<img src="Pictures/Picture10.jpg" style="background-color:white;"/>
+<p> Completed PCB</p>
+
+</center>
 
 ---
 
 ## Initial Sketches of the Product Enclosures
 Initial design sketches provide a visual representation of the product, demonstrating how it fits into existing water pipeline systems and its physical appearance.
 
-![Initial Sketches](Images/InitialSketches.jpg)
+<center>
+<img src="Pictures/Picture11.png" style="background-color:white;"/>
+<img src="Pictures/Picture12.png" style="background-color:white;"/>
+<img src="Pictures/Picture13.jpg" style="background-color:white;"/>
+</center>
 
 ---
 
