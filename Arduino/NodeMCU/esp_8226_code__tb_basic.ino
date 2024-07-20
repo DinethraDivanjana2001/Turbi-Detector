@@ -37,7 +37,7 @@ void loop() {
     count = 1;
   }
   else if (distance > distanceLimit && count < 3) {
-    // If water is good during counting, reset the count
+    // If water is good during  counting, reset the count
     controlSolenoid2();
     count = 1;
   }
